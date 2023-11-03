@@ -35,11 +35,63 @@
 	
 <h1>Week 2 Dev Blog</h1>
 <article id="wk2">
-	<ul>
-		<li></li>
-	</ul>
+	<h2>HTML Semantics</h2>
+		<img src="images/Semantic.png" alt="semantic" height="400">
+	<ol>
+		<li><strong>Header:</strong></li>
+		<p>Typically used for navigation or introductory content, the <b>&lt;header&gt;</b> element can be placed at the top of a page to encapsulate navigation menus and logos.</p>
+		<li><strong>Article:</strong></li>
+		<p>The <b>&lt;article&gt;</b> tag is often used for content like news articles, blog posts, or independent pieces of content. It contains one or more heading tags (<b>&lt;h1&gt;</b> to <b>&lth;6&gt;</b>).</p>
+		<li><strong>Nav:</strong></li>
+		<p>The <b>&lt;nav&gt;</b> element is used for navigation menus and is specifically designed for key navigation elements within the site, not for every link on the page.</p>
+		<li><strong>Aside:</strong></li>
+		<p>Reserved for content that is indirectly related to the main content, the <b>&lt;aside&gt;</b> tag is commonly found in sidebars or call-out boxes.</p>
+		<li><strong>Section:</strong></li>
+		<p>The <b>&lt;section&gt;</b> element is used to group related content together. It is particularly useful for breaking content into distinct sections within an article tag.</p>
+		<li><strong>Footer:</strong></li>
+		<p>Just as the <b>&lt;header&gt;</b> encapsulates introductory content, the <b>&lt;footer&gt;</b> element is used for the footer section of a page, which often contains copyright information and additional navigation links.</p>
+	</ol>
+	<br>
+		
+	<h2>Common Elements Learned</h2>
+		<p>common HTML elements like <b>&lt;table&gt;, &lt;details&gt;, &lt;figure&gt;, &lt;form&gt;, &lt;form&gt;</b> and <b>&lt;main&gt;</b>. These elements serve various purposes in web development and can help structure your content effectively.</p>
+	<br>
+		
+	<h2>CSS Basics</h2>
+	<ol>
+		<li><b>Color:</b></li>
+		<p> You can set the color of text, backgrounds, and borders using CSS. For example, color: green; <span style="color: green">will change the text color to green.</span></p>
+		<li><b>Size:</b></li>
+		<p>CSS allows you to control the size of elements, such as <span style="font-size: 23px;" >font size</span>, width, and height, to create a visually appealing layout.</p>
+		<li><b>Position:</b></li>
+		<p style="text-align:center;">You can use CSS to position elements on your page, determining where they appear in relation to other elements.</p>
+	</ol>
+	<br>
+		
+	<h2>Ways to Includde Styles in HTML</h2>
+	<p>There are different methods to apply CSS styles to your HTML content:</p>
+	<ol>
+	<li><b>Inline Style:</b></li>
+	<p>You can apply styles directly to individual HTML elements using the style attribute. For example: <br><b>p style="color: <span style="color: green">green</span>;"</b>.</p>
 	
+	<li><b>Internal Stylesheet:</b></li>
+	<p>You can define your styles within the style element tag in the HTML file, affecting multiple elements within the document. For instance: <br><b> &lt;style&gt; <br>* { <br> color: <span style="color: green">green</span>; <br>}<br>&lt;/style&gt;</b></p>
+		
+	<li><b>External Stylesheet:</b></li>
+	<p>To maintain a clear separation between HTML and CSS, you can create an external CSS file (e.g., basic.css) and link it to your HTML document using the <b>&lt;link&gt;</b> element. This is a more organized approach, especially for larger projects <br><b>&lt;link <span style="color: #FF1493">rel=<span style="color: green">"stylesheet"</span> href=<span style="color: green">"basic.css"</span> type=<span style="color: green">"text/css"</span></span> /&gt;</b></p>
+	</ol>
+		
+	<h2>CSS Selectors</h2>
+	<ol>
+	<li><b>Attribute Selectors</b>:</li>
+	<p>Select elements based on their attributes, e.g., <b>input[type="text"]</b>.</p>
 	
-</article>
+	<li><b>Class and ID Selectors</b>:</li>
+	<p>Apply styles to elements with specific classes or IDs, like <b>.my-class and #my-id.</b>.</p>
+		
+	<li><b>Pseudo-Classes</b>:</li>
+		<p>Style anchor elements depending on their state, like <b>a:link</b>, <b>a:visited</b>, <b>a:hover</b>, <b>a:active</b>, and <b>a:focus</b>.</p>
+	</ol>
+	</article>
 </body>
 </html>

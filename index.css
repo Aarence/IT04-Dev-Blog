@@ -10,10 +10,12 @@ html, body {
 	background-color:azure;
 	margin-left:10px;
 }
-img{
+#wk1 ul, #wk1 img
+{
+	color:#B800FF;
 	border-radius: 50%;
 }
-#wk1 ul
+#wk2 img 
 {
-	color:#B800FF
+
 }
