@@ -8,8 +8,64 @@ html, body {
 	font-size:18px; 
 	text-align:left; 
 	background-color:azure;
+}
+
+#header{
+	display: flex;  
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px 50px;
+	background: #E3E6F3;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+	z-index: 999;
+	position: sticky;
+	top: 0;
+	left: 0;
+}
+
+#navbar{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+#navbar li{
+	list-style: none;
+	padding: 0 30px 0 30px;
+	position: relative;
+}
+
+#navbar li a{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 600;
+	color: black;
+	transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active /* active make it highlighted */
+{
+	color: #00f0ff;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+	content: "";
+	width: 30%;
+	height: 2px;
+	background: #00f0ff;
+	position: absolute;
+	bottom: -4px;
+	left: 30px;
+}
+
+#wk1, #wk2
+{
 	margin-left:10px;
 }
+
 #wk1 ul, #wk1 img
 {
 	color:#B800FF;
